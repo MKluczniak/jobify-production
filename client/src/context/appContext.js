@@ -282,9 +282,9 @@ const AppProvider = ({ children }) => {
       // console.log(error.response)
       logoutUser()
     }
-  }
+  
   clearAlert() //precaution if there is some alert, hide it coz they could be possibly displayed in another place if moved quickly
-
+  }
   //testing functionality of getJobs() when no component yet set up
   // useEffect(() => {
   //   getJobs()
